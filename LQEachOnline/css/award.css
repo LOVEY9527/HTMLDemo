@@ -1,0 +1,105 @@
+*{
+	margin: 0px;
+	padding: 0px; 
+}
+div{
+	text-align: center;
+	/*border: 1px solid;*/
+	/*float: left;*/
+}
+font{
+	font-family: "微软雅黑";
+}
+img{
+	vertical-align: middle;
+}
+
+.navigationBarDiv{
+	width: 100%;
+	height: 40px;
+	background-color: #ff6c00;
+	position: relative;
+}
+.navigationBarDiv img{
+	width: 10px;
+	height: 20px;
+	position: absolute;
+	top: 9px;
+	left: 10px;
+}
+.navigationBarDiv font{
+	position: relative;
+	top: 11px;		
+	font-size: 16px;
+	color: white;
+}
+
+.awardTitleDiv{
+	width: 100%;
+	height: 15px;
+	position: relative;
+	top: 45px;	
+}
+.awardTitleDiv font{
+	font-size: 14px;
+	color: #999999;
+}
+
+.verificationCodeInputDiv{
+	width: 100%;
+	height: 23px;
+	position: relative;
+	top: 60px;
+}
+.verificationCodeInputDiv input{
+	width: 70%;
+	height: 30px;
+	border: 1px solid #e4e6e2;
+	border-radius: 2px;
+	background-color: #f8f8f8;
+}
+
+.validateResultDiv {
+	width: 100%;
+	height: 15px;	
+	position: relative;
+	top: 80px;
+	text-align: left;
+	display: none;
+	/*visibility: hidden;*/
+}
+.validateResultDiv span{
+	font-size: 14px;	
+	position: relative;
+	left: 15%;
+}
+.validateResultDiv font{
+	font-size: 14px;
+	/*color: #01b60c;*/
+	position: relative;
+	left: 15.5%;
+	/*display: none;*/
+	/*visibility: hidden;*/
+}
+.validateResultSuccess{
+	color: #01B60C;
+}
+.validateResultfail{
+	color: #f65c43;
+}
+
+.validateButtonDiv{
+	width: 100%;
+	height: 23px;
+	position: relative;
+	top: 100px;
+}
+.validateButtonDiv button{
+	width: 70%;
+	height: 30px;
+	background-color: #ff6c00;
+	color: white;
+	font-size: 14px;
+	border: 0px;
+	border-radius: 15px;
+}
